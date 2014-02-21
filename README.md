@@ -1,6 +1,10 @@
 
 [Kohana [v3.3.1] with H5BP, Bootstrap and a  simple tutorial]
 
+NEED TO TEST on ubuntu, fedora [LAMP], windows [WAMP] and XMPP.
+
+Using php5.4.4 on MAMP
+
 # Tutorial
 [Added by Praveen Garg] (http://www.gargpraveen.blogspot.com/)
 
