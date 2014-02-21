@@ -12,7 +12,9 @@ A basic tutorial, which explains CRUD operation on entity using ORM [object reso
 
 ![Basic tutorial, which explains CRUD operation](tutorial-screenshot.jpg "Tutorial Homepage")
 
-you can find 'kohana_example.sql', in app root directory. [using db name as 'kohana_example', with table 'ratings' (recommendation: use plural name for tables/realtions)]
+you can find [kohana_example.sql] (kohana_example.sql), in app root directory.
+
+* recommendation: use plural name for tables/realtions)]å
 
 # Kohana PHP Framework v3.3.1
 
@@ -28,38 +30,43 @@ Released under a [BSD license](http://kohanaframework.org/license), Kohana can b
 Initializr is an HTML5 templates generator to help you getting started with a new project based on HTML5 Boilerplate. It generates for you a clean customizable template with just what you need to start!
 
 # Dir structure
-  /
-   application/
-   assets/
-        js/
+  kohana-nerds/
+      application/
+        assets/
+          js/
             main.js
             plugin.js
             vendor/
               bootstrap.js
               jquery-1.10.1.min.js
               ...
-        css/
-          main.css
-          bootstrap.css
+          css/
+            main.css
+            bootstrap.css
             ...
-        img/
+          img/
             ...
-        fonts/
+          fonts/
             ...
-
-
-  system/
-  .htaccess
-  crossdomain.xml
-  build.xml
-  composer.json
-  humans.txt
-  robots.txt
-  favicon.ico
+      system/
+      .htaccess
+      crossdomain.xml
+      build.xml
+      composer.json
+      humans.txt
+      robots.txt
+      favicon.ico
 
 
 # How to start/install from basic kohana code
 [Basic steps to install] (steps-taken-to-install.txt)
+
+# Note [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/kohana/tips)
+
+ With the introduction of PSR-0 support, the autoloading of classes is case sensitive.
+ e.g. url::base() will work on MAC OSX and windows but not on Linux machine.
+
+ Mainly because filesystems used by Mac OSX and Windows are case insensitive but a Unix/Linux based server is not.
 
 # TODO
 
@@ -70,7 +77,7 @@ P1
 
 P2
 * Sign- in/up using auth modules
-* Add unit tests [sorry! I understand it should be the first step.]
+* Add unit tests [sorry! I understand it should be the first step. but soon...]
 
 P3
 * elaborate HMVC concept with example
