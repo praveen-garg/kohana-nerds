@@ -1,0 +1,13 @@
+** Download kohana v3.3.1 from http://kohanaframework.org/download
+
+** In bootstrap.php
+
+	* change 'base_url'   => '/kohana-nerds',
+	* added Cookie::$salt = 'nerdPraveen';
+
+** add database.php to application/config [see database.php in repo]
+** In bootstrap.php enabled modules 'database' and 'orm' in array Kohana::modules
+** added template.php in views
+
+
+** added assets dir and sub directories [for bootstrap and other]

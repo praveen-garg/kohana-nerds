@@ -54,9 +54,13 @@ Initializr is an HTML5 templates generator to help you getting started with a ne
   favicon.ico
 
 
+# How to start/install from basic kohana code
+[Basic steps to install] (steps-taken-to-install.txt)
+
 # TODO
 
 P1
+* Fix Dir structure markdown of README.md for github :)
 * Add validations [Server + Client side]
 * pure SQL (with parammeter binding)
 
