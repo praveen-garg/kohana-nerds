@@ -32,9 +32,9 @@ __Recommendation:__ use plural name for tables/realtions
               main.css
               bootstrap.css
               ...
-              img/
+            img/
                 ...
-              fonts/
+            fonts/
                 ...
           system/
           .htaccess
