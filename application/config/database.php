@@ -4,7 +4,7 @@ return array
 (
     'default' => array
     (
-        'type'       => 'mysql',
+        'type'       => 'MySQL',
         'connection' => array(
             'hostname'   => 'localhost',
             'database'   => 'kohana_example', //change credentials, as per your DB config
