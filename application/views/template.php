@@ -36,7 +36,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">v3.3.1</a></li>
-            <li><a href="<?php echo url::base();?>index.php/rating">Tutorial</a></li>
+            <li><a href="<?php echo URL::base();?>index.php/rating">Tutorial</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info <b class="caret"></b></a>
               <ul class="dropdown-menu">
