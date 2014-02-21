@@ -1,0 +1,56 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-02-21 17:20:15 --- EMERGENCY: ErrorException [ 4096 ]: Argument 3 passed to Kohana_Form::input() must be of the type array, string given, called in /Applications/MAMP/htdocs/kohana-nerds/application/views/rating/edit.php on line 13 and defined ~ DOCROOT/Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Form.php [ 93 ] in /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Form.php:93
+2014-02-21 17:20:15 --- DEBUG: #0 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Form.php(93): Kohana_Core::error_handler(4096, 'Argument 3 pass...', '/Applications/M...', 93, Array)
+#1 /Applications/MAMP/htdocs/kohana-nerds/application/views/rating/edit.php(13): Kohana_Form::input('val', NULL, 'required')
+#2 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(61): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(348): Kohana_View::capture('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(228): Kohana_View->render()
+#5 /Applications/MAMP/htdocs/kohana-nerds/application/views/template.php(78): Kohana_View->__toString()
+#6 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(61): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(348): Kohana_View::capture('/Applications/M...', Array)
+#8 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#9 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Rating))
+#12 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 /Applications/MAMP/htdocs/kohana-test/index.php(118): Kohana_Request->execute()
+#15 {main} in /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Form.php:93
+2014-02-21 17:23:14 --- EMERGENCY: ErrorException [ 8 ]: Undefined property: Database_MySQL_Result::$id ~ APPPATH/views/rating/index.php [ 12 ] in /Applications/MAMP/htdocs/kohana-nerds/application/views/rating/index.php:12
+2014-02-21 17:23:14 --- DEBUG: #0 /Applications/MAMP/htdocs/kohana-nerds/application/views/rating/index.php(12): Kohana_Core::error_handler(8, 'Undefined prope...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(61): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(348): Kohana_View::capture('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(228): Kohana_View->render()
+#4 /Applications/MAMP/htdocs/kohana-nerds/application/views/template.php(78): Kohana_View->__toString()
+#5 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(61): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(348): Kohana_View::capture('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#8 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Rating))
+#11 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 /Applications/MAMP/htdocs/kohana-test/index.php(118): Kohana_Request->execute()
+#14 {main} in /Applications/MAMP/htdocs/kohana-nerds/application/views/rating/index.php:12
+2014-02-21 17:44:27 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: base_url ~ APPPATH/views/template.php [ 39 ] in /Applications/MAMP/htdocs/kohana-nerds/application/views/template.php:39
+2014-02-21 17:44:27 --- DEBUG: #0 /Applications/MAMP/htdocs/kohana-nerds/application/views/template.php(39): Kohana_Core::error_handler(8, 'Undefined varia...', '/Applications/M...', 39, Array)
+#1 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(61): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/View.php(348): Kohana_View::capture('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#4 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Rating))
+#7 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 /Applications/MAMP/htdocs/kohana-test/index.php(118): Kohana_Request->execute()
+#10 {main} in /Applications/MAMP/htdocs/kohana-nerds/application/views/template.php:39
+2014-02-21 18:02:55 --- EMERGENCY: ErrorException [ 8 ]: Use of undefined constant tutorial_url - assumed 'tutorial_url' ~ APPPATH/classes/Controller/Welcome.php [ 8 ] in /Applications/MAMP/htdocs/kohana-nerds/application/classes/Controller/Welcome.php:8
+2014-02-21 18:02:55 --- DEBUG: #0 /Applications/MAMP/htdocs/kohana-nerds/application/classes/Controller/Welcome.php(8): Kohana_Core::error_handler(8, 'Use of undefine...', '/Applications/M...', 8, Array)
+#1 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Controller.php(84): Controller_Welcome->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Welcome))
+#4 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 /Applications/MAMP/htdocs/kohana-test/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 /Applications/MAMP/htdocs/kohana-test/index.php(118): Kohana_Request->execute()
+#7 {main} in /Applications/MAMP/htdocs/kohana-nerds/application/classes/Controller/Welcome.php:8
