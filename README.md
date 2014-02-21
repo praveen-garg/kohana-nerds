@@ -73,7 +73,6 @@ __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/koh
 # TODO
 
 P1
-* Fix Dir structure markdown of README.md for github :)
 * Add validations [Server + Client side]
 * pure SQL (with parammeter binding)
 
