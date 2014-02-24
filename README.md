@@ -5,13 +5,17 @@
 __Note:__ NEED TO TEST on ubuntu, fedora [LAMP], windows [WAMP] and XAMPP.
 
 
-## Tutorial
+## Examples / Tutorials
 
-A basic tutorial, which explains CRUD operation on entity using ORM [object resource mapping] technique.
+A basic example, which explains CRUD operation on entity using ORM [object resource mapping] technique.
 
-![Basic tutorial, which explains CRUD operation](tutorial-screenshot.jpg "Tutorial Homepage")
+![Basic example, which explains CRUD operation](tutorial-screenshot.jpg "Tutorial Homepage")
 
 ### Find [kohana_example.sql] (kohana_example.sql), in app root directory.
+
+An example, using auth module for user sign-in/sign-up using ORM [object resource mapping] technique.
+
+### Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
 
 __Recommendation:__ use plural name for tables/realtions
 
@@ -73,11 +77,10 @@ __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/koh
 ### TODO
 
 P1
-* Add validations [Server + Client side]
+* Explaination on examples provided, add Tutorials steps
 * pure SQL (with parammeter binding)
 
 P2
-* Sign- in/up using auth modules
 * Add unit tests [sorry! I understand it should be the first step. but soon...]
 
 P3
