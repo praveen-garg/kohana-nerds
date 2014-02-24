@@ -7,20 +7,20 @@ __Note:__ NEED TO TEST on ubuntu, fedora [LAMP], windows [WAMP] and XAMPP.
 
 ## Examples / Tutorials
 
-A basic example, which explains CRUD operation on entity using ORM [object resource mapping] technique.
+### A basic example, which explains CRUD operation on entity using ORM [object resource mapping] technique.
 
-![Basic example, which explains CRUD operation](screenshot-auth-example.jpg "Basic example Homepage")
+![Basic example, which explains CRUD operation](screenshot-simple-example.jpg "Basic example Homepage")
 
-### Find [kohana_example.sql] (kohana_example.sql), in app root directory.
+Find [kohana_example.sql] (kohana_example.sql), in app root directory.
 
-An example, using auth module for user sign-in/sign-up using ORM [object resource mapping].
+### An example, using auth module for user sign-in/sign-up using ORM.
 
-![Auth Module example, with boostrap theme sign-up](screenshot-example.jpg "Auth Module example Homepage")
+![Auth Module example, with boostrap theme sign-up](screenshot-auth-example.jpg "Auth Module example Homepage")
 
-### Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
+Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
 
 
-__Recommendation:__ use plural name for tables/realtions.
+__Recommendation:__ use plural name for DB table.
 
 
 ### Directory structure:
