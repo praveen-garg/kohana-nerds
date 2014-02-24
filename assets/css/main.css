@@ -3,7 +3,15 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.bs-callout-info {
+    background-color: #F4F8FA;
+    border-color: #5BC0DE;
+}
+.bs-callout {
+    border-left: 3px solid #EEEEEE;
+    margin: 20px 0;
+    padding: 20px;
+}
 
 
 
