@@ -1,9 +1,6 @@
 
-* Kohana [v3.3.1] with H5BP, Bootstrap and a simple tutorial
-* Tested/Developed using MAMP & PHP 5.4.4.
-
-__Note:__ NEED TO TEST on ubuntu, fedora [LAMP], windows [WAMP] and XAMPP.
-
+* Kohana [v3.3.1] with H5BP, Bootstrap
+* Tested/Developed using MAMP & PHP 5.4.4
 
 ## Examples / Tutorials
 
@@ -59,7 +56,6 @@ __Recommendation:__ use plural name for DB table.
 [Kohana PHP Framework v3.3.1](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
 Released under a [BSD license](http://kohanaframework.org/license), Kohana can be used legally for any open source, commercial, or personal project.
 
-### Initializr
 [Initializr] (http://www.initializr.com/)
     H5BP 4.2.0
     Bootstrap 3.0.0
@@ -82,7 +78,7 @@ __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/koh
 
 __Note:__ [Conventions] (http://kohanaframework.org/3.3/guide/kohana/conventions)
 
-
+ > It is encouraged that you follow coding style as per the language / framework.
 
 ### TODO
 
