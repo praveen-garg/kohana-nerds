@@ -66,8 +66,8 @@
           <li> Modernizr, minified jQuery from <a href="http://www.initializr.com/" target="_blank">[http://www.initializr.com/]</a></li>
         </ul>
 
-        <strong> A basic example, which explains CRUD operation on entity using ORM [object resource mapping] technique.</strong>
-        <strong> An example, using auth module for user sign-in/sign-up using ORM [object resource mapping] technique.</strong>
+        <strong> A basic example, which explains CRUD operation on entity using ORM [object resource mapping] technique.</strong><br>
+        <strong> An example, using auth module for user sign-in/sign-up using ORM.</strong>
 
       </p>
 
