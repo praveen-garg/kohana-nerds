@@ -41,6 +41,6 @@
 <div class="form-group">
 <?= Form::submit('create', 'Create User', array('class' => 'btn btn-success')); ?>
 <?= Form::close(); ?>
+&nbsp; Or <?= HTML::anchor('user/login', 'login'); ?> if you have an account already.
 </div>
 
-<p>Or <?= HTML::anchor('user/login', 'login'); ?> if you have an account already.</p>

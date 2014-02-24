@@ -13,13 +13,14 @@ SET time_zone = "+00:00";
 --
 -- Database: `kohana_example`
 --
+USE `kohana_example`;
 
 -- --------------------------------------------------------
 
 --
 -- Table structure for table `ratings`, you may want to skip, but I kept it for master sync.
 --
-
+DROP TABLE IF EXISTS `ratings`;
 CREATE TABLE `ratings` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `programming_language` varchar(255) NOT NULL,
