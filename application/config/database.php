@@ -1,9 +1,7 @@
 <?php defined('SYSPATH') or die('No direct access allowed.');
 
-return array
-(
-    'default' => array
-    (
+return array(
+    'default' => array(
         'type'       => 'MySQL',
         'connection' => array(
             'hostname'   => 'localhost',
