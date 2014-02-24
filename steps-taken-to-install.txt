@@ -6,8 +6,20 @@
 	* added Cookie::$salt = 'nerdPraveen';
 
 ** add database.php to application/config [see database.php in repo]
-** In bootstrap.php enabled modules 'database' and 'orm' in array Kohana::modules
-** added template.php in views
+** add template.php in views
+** add assets dir and sub directories [for bootstrap and other]
 
+[simple example]
 
-** added assets dir and sub directories [for bootstrap and other]
+** In bootstrap.php enable modules 'database' and 'orm' in array Kohana::modules
+** import kohana_example.sql (find in app root directory)
+** check controller, model and views
+
+[auth module example]
+
+** In bootstrap.php enable modules 'database', 'orm' and 'auth' in array Kohana::modules
+** import kohana_auth.sql (find in app root directory)
+** add auth.php to config
+** check controller, views and messages (i.e. for validations)
+
+note: you may need to disable auth page link in template, if you are using simple example sql; else will show DB related error(s).

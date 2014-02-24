@@ -13,7 +13,7 @@ __Note:__ NEED TO TEST on ubuntu, fedora [LAMP], windows [WAMP] and XAMPP.
 
 Find [kohana_example.sql] (kohana_example.sql), in app root directory.
 
-### An example, using auth module for user sign-in/sign-up using ORM.
+### An example, using auth module for user sign-in/sign-up using ORM and server side validations for sign-up.
 
 ![Auth Module example, with boostrap theme sign-up](screenshot-auth-example.jpg "Auth Module example Homepage")
 
@@ -54,9 +54,9 @@ __Recommendation:__ use plural name for DB table.
           robots.txt
           favicon.ico
 
-### Kohana PHP Framework v3.3.1
+### What is inside?
 
-[Kohana](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
+[Kohana PHP Framework v3.3.1](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
 Released under a [BSD license](http://kohanaframework.org/license), Kohana can be used legally for any open source, commercial, or personal project.
 
 ### Initializr
@@ -74,10 +74,15 @@ Initializr is an HTML5 templates generator to help you getting started with a ne
 
 __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/kohana/tips)
 
- With the introduction of PSR-0 support, the autoloading of classes is case sensitive.
- e.g. url::base() will work on MAC OSX and windows but not on Linux machine.
+ > With the introduction of PSR-0 support, the autoloading of classes is case sensitive.
+ > e.g. url::base() will work on MAC OSX and windows but not on Linux machine.
 
- Mainly because filesystems used by Mac OSX and Windows are case insensitive but a Unix/Linux based server is not.
+ > Mainly because filesystems used by Mac OSX and Windows are case insensitive but a Unix/Linux
+ > based server is not.
+
+__Note:__ [Conventions] (http://kohanaframework.org/3.3/guide/kohana/conventions)
+
+
 
 ### TODO
 
