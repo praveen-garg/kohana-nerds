@@ -59,7 +59,7 @@ Released under a [BSD license](http://kohanaframework.org/license), Kohana can b
 Initializr is an HTML5 templates generator to help you getting started with a new project based on HTML5 Boilerplate. It generates for you a clean customizable template with just what you need to start!
 
 
-## How to start/install from basic kohana code
+### How to start/install from basic kohana code
 
 [Basic steps to install] (steps-taken-to-install.txt)
 
@@ -70,7 +70,7 @@ __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/koh
 
  Mainly because filesystems used by Mac OSX and Windows are case insensitive but a Unix/Linux based server is not.
 
-## TODO
+### TODO
 
 P1
 * Add validations [Server + Client side]
@@ -89,7 +89,7 @@ P3
 [Praveen Garg] (http://www.gargpraveen.blogspot.com/) [@nerdapplabs] (http://nerdapplabs.com)
 
 > All used framework/libraries are trademarks of their respective owners. and open source
-> [free licensed to use] to community (as per my knowledge), if any issue please report
+> [free licensed to use] to community (as per my knowledge), if any issue please report at:
 > (praveen.garg@nerdapplabs.com).
 
 > The use of these does not indicate endorsement of the trademark holder by nerdapplabs,
