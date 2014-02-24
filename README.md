@@ -19,6 +19,8 @@ Find [kohana_example.sql] (kohana_example.sql), in app root directory.
 
 Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
 
+> Demo login credentials
+> praveen/kohana123
 
 __Recommendation:__ use plural name for DB table.
 
