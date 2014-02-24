@@ -10,17 +10,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo URL::base();?>/assets/css/bootstrap.min.css">
         <style>
             body {
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="../assets/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="<?php echo URL::base();?>/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="<?php echo URL::base();?>/assets/css/main.css">
 
-        <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo URL::base();?>/assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -96,12 +96,12 @@
       </footer>
     </div> <!-- /container -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="' + <?php echo URL::base();?> + '/assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="../assets/js/vendor/bootstrap.min.js"></script>
+        <script src="<?php echo URL::base();?>/assets/js/vendor/bootstrap.min.js"></script>
 
-        <script src="../assets/js/plugins.js"></script>
-        <script src="../assets/js/main.js"></script>
+        <script src="<?php echo URL::base();?>/assets/js/plugins.js"></script>
+        <script src="<?php echo URL::base();?>/assets/js/main.js"></script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
