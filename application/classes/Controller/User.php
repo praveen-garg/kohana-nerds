@@ -134,11 +134,9 @@ class Controller_User extends Controller_Template {
 }
 
 /** Agenda
-  * Add custom roles
   * 1. forgot password?
-  * 2. identify ajax call and return JSON
-  * 3. REST based authentication (i.e. web services)
-  * 4. Login using facebook
+  * 2. REST based authentication (i.e. web services)
+  * 3. Login using facebook/twitter
   */
 
 /** about user_tokens
