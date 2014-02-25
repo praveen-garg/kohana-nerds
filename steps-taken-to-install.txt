@@ -21,5 +21,9 @@
 ** import kohana_auth.sql (find in app root directory)
 ** add auth.php to config
 ** check controller, views and messages (i.e. for validations)
+** by default 2 roles are there login and admin (where login is considered as general user)
 
-note: you may need to disable auth page link in template, if you are using simple example sql; else will show DB related error(s).
+note:
+* you may need to disable auth page link in template, if you are using simple example sql; else
+  will show DB related error(s).
+* make sure application/logs and application/cache directories are writable.

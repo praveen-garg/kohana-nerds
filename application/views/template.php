@@ -50,6 +50,7 @@
                 <li class="dropdown-header">Assets in tutorial</li>
                 <li><a href="#">HTML5Boilerplate Template</a></li>
                 <li><a href="#">Bootstrap Theme </a></li>
+                <li><a href="#">Mobile responsive </a></li>
                 <li class="dropdown-header">Other</li>
                  <li><a href="#">Custom 404 Error page</a></li>
                  <li><a href="#">crossdomain.xml</a></li>
@@ -66,7 +67,7 @@
         <h1>Welcome to Kohana world, Enjoy!</h1>
         <p>This is a basic set of <a href="http://kohanaframework.org/download" target="_blank"> Kohana [v3.3.1] </a> with:
          <ul>
-          <li> <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+          <li> <a href="http://getbootstrap.com/" target="_blank">Bootstrap (Mobile responsive)</a>
           <li> <a href="http://html5boilerplate.com/" target="_blank">HTML5Boilerplate template</a></li>
           <li> Modernizr, minified jQuery from <a href="http://www.initializr.com/" target="_blank">[http://www.initializr.com/]</a></li>
         </ul>

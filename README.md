@@ -1,5 +1,5 @@
 
-* Kohana [v3.3.1] with H5BP, Bootstrap
+* Kohana [v3.3.1] with H5BP, Bootstrap (Mobile responsive) theme
 * Tested/Developed using MAMP & PHP 5.4.4
 
 ## Examples / Tutorials
@@ -10,17 +10,17 @@
 
 Find [kohana_example.sql] (kohana_example.sql), in app root directory.
 
-### An example, using auth module for user sign-in/sign-up using ORM and server side validations for sign-up.
+### An example, using auth module for user sign-in/sign-up using ORM, server side validations for sign-up, and AJAX enabled controller login action.
 
 ![Auth Module example, with boostrap theme sign-up](screenshot-auth-example.jpg "Auth Module example Homepage")
 
 Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
 
-> Demo login credentials
-> praveen/kohana123
+> Demo login credentials: praveen/kohana123
 
-__Recommendation:__ use plural name for DB table.
+> Controller_User action_login handles AJAX request too, also check before() method.
 
+> To make login work via AJAX (main.js), enable 'id' => 'do-login' in views/user/login.php form submit button
 
 ### Directory structure:
 
@@ -68,7 +68,9 @@ Initializr is an HTML5 templates generator to help you getting started with a ne
 
 [Basic steps to install] (steps-taken-to-install.txt)
 
-__Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/kohana/tips)
+__Note:__
+
+[PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/kohana/tips)
 
  > With the introduction of PSR-0 support, the autoloading of classes is case sensitive.
  > e.g. url::base() will work on MAC OSX and windows but not on Linux machine.
@@ -76,13 +78,14 @@ __Note:__ [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/koh
  > Mainly because filesystems used by Mac OSX and Windows are case insensitive but a Unix/Linux
  > based server is not.
 
-__Note:__ [Conventions] (http://kohanaframework.org/3.3/guide/kohana/conventions)
+[Conventions] (http://kohanaframework.org/3.3/guide/kohana/conventions)
 
- > It is encouraged that you follow coding style as per the language / framework.
+ > It is encouraged that you follow coding style as per the language / framework. Also, use plural name for DB tables.
 
 ### TODO
 
 P1
+* Catch any 404 eror and show custom error/404 page
 * Explaination on examples provided, add Tutorials steps
 * pure SQL (with parammeter binding)
 
@@ -95,7 +98,7 @@ P3
 
 ### Thank you!
 
-[Praveen Garg] (http://www.gargpraveen.blogspot.com/) [@nerdapplabs] (http://nerdapplabs.com)
+[Praveen Garg] (http://www.gargpraveen.blogspot.com/)
 
 > All used framework/libraries are trademarks of their respective owners. and open source
 > [free licensed to use] to community (as per my knowledge), if any issue please report at:
@@ -103,3 +106,5 @@ P3
 
 > The use of these does not indicate endorsement of the trademark holder by nerdapplabs,
 > nor vice versa.
+
+[@nerdapplabs] (http://nerdapplabs.com)
