@@ -18,9 +18,9 @@ Find [kohana_auth.sql] (kohana_auth.sql), in app root directory.
 
 > Demo login credentials: praveen/kohana123
 
-> Controller_User action_login handles AJAX request too, also check before() method.
+> In User controller, action_login handles AJAX request. check before() method for more details.
 
-> To make login work via AJAX (main.js), enable 'id' => 'do-login' in views/user/login.php form submit button
+> To make login work via AJAX (main.js), enable 'id' => 'do-login' in views/user/login.php form submit button.
 
 ### Directory structure:
 
@@ -68,7 +68,7 @@ Initializr is an HTML5 templates generator to help you getting started with a ne
 
 [Basic steps to install] (steps-taken-to-install.txt)
 
-__Note:__
+__Notes:__
 
 [PSR-0 and case-sensitivity] (http://kohanaframework.org/3.3/guide/kohana/tips)
 
